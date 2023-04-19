@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\"patient_id\": {{PatientIDInsurance.formData.patient_id}}\n}\n",
+      "body": "{\n\t\"patient_id\": {{PatientIDInsurance.formData.patient_id}}\n}\n",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
