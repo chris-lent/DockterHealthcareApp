@@ -382,7 +382,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 46,
+                      "bottomRow": 47,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -593,7 +593,7 @@
               "originalTopRow": 2,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 67,
-              "originalBottomRow": 49,
+              "originalBottomRow": 51,
               "minDynamicHeight": 49
             }
           ]
