@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -27,6 +27,7 @@
           "children": []
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Healthcare Employee Emily 2",
         "deleted": false,
