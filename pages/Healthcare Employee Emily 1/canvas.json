@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 510,
+          "bottomRow": 760,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -416,7 +416,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "Plan Type",
+                          "label": "Policy Type",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"plan_name\"]))}}",
@@ -445,7 +445,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "Plan ID",
+                          "label": "Policy ID",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"policy_id\"]))}}",
@@ -609,7 +609,7 @@
                 "group"
               ],
               "topRow": 2,
-              "bottomRow": 49,
+              "bottomRow": 76,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -617,7 +617,7 @@
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 34,
+              "leftColumn": 33,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -631,7 +631,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 470,
+                  "bottomRow": 740,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -645,7 +645,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "borderColor": "#E0DEDE",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
-                      "onSubmit": "{{add_medical_center_insurance.run(() => postWindowMessage('Insurance Successfully Added!', 'window', '*'), () => {})}}",
+                      "onSubmit": "{{add_medical_center_insurance.run(() => {}, () => {})}}",
                       "topRow": 3,
                       "type": "JSON_FORM_WIDGET",
                       "animateLoading": true,
@@ -780,7 +780,7 @@
                       },
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 42,
+                      "originalBottomRow": 36,
                       "useSourceData": false,
                       "schema": {
                         "__root_schema__": {
@@ -841,7 +841,7 @@
                       },
                       "dynamicPropertyPathList": [],
                       "displayName": "JSON Form",
-                      "bottomRow": 42,
+                      "bottomRow": 36,
                       "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
                       "title": "Add Insurance Accepted By Policy Number",
@@ -858,7 +858,7 @@
                       "key": "2cpe93rl4m",
                       "backgroundColor": "#fff",
                       "isDeprecated": false,
-                      "rightColumn": 22,
+                      "rightColumn": 33,
                       "widgetId": "ifwzfdbfc5",
                       "minWidth": 450,
                       "parentId": "wm9pq1bs3n",
@@ -873,227 +873,12 @@
                     {
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "borderColor": "#E0DEDE",
-                      "isVisibleDownload": true,
-                      "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 3,
-                      "isSortable": true,
-                      "type": "TABLE_WIDGET_V2",
-                      "inlineEditingSaveOption": "ROW_LEVEL",
-                      "animateLoading": true,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "primaryColumns.step.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.task.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.status.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.action.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.action.buttonColor"
-                        },
-                        {
-                          "key": "primaryColumns.action.borderRadius"
-                        },
-                        {
-                          "key": "primaryColumns.action.boxShadow"
-                        },
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "boxShadow"
-                        }
-                      ],
-                      "needsHeightForContent": true,
-                      "leftColumn": 43,
-                      "delimiter": ",",
-                      "defaultSelectedRowIndex": 0,
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisibleFilters": true,
-                      "isVisible": true,
-                      "enableClientSideSearch": true,
-                      "version": 1,
-                      "totalRecordsCount": 0,
-                      "isLoading": false,
-                      "childStylesheet": {
-                        "button": {
-                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                          "boxShadow": "none"
-                        },
-                        "menuButton": {
-                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                          "boxShadow": "none"
-                        },
-                        "iconButton": {
-                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                          "boxShadow": "none"
-                        },
-                        "editActions": {
-                          "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                          "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                          "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                          "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-                        }
-                      },
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1681935078658,
-                      "defaultSelectedRowIndices": [
-                        0
-                      ],
-                      "widgetName": "Table2",
-                      "defaultPageSize": 0,
-                      "columnOrder": [
-                        "step",
-                        "task",
-                        "status",
-                        "action"
-                      ],
-                      "dynamicPropertyPathList": [],
-                      "displayName": "Table",
-                      "bottomRow": 41,
-                      "columnWidthMap": {
-                        "task": 245,
-                        "step": 70,
-                        "status": 85
-                      },
-                      "parentRowSpace": 10,
-                      "hideCard": false,
-                      "parentColumnSpace": 6.974609375,
-                      "dynamicTriggerPathList": [],
-                      "borderWidth": "1",
-                      "primaryColumns": {
-                        "step": {
-                          "index": 0,
-                          "width": 150,
-                          "id": "step",
-                          "originalId": "step",
-                          "alias": "step",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textSize": "0.875rem",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isCellVisible": true,
-                          "isCellEditable": false,
-                          "isDerived": false,
-                          "label": "step",
-                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
-                          "validation": {},
-                          "sticky": "",
-                          "labelColor": "#FFFFFF"
-                        },
-                        "task": {
-                          "index": 1,
-                          "width": 150,
-                          "id": "task",
-                          "originalId": "task",
-                          "alias": "task",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textSize": "0.875rem",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isCellVisible": true,
-                          "isCellEditable": false,
-                          "isDerived": false,
-                          "label": "task",
-                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
-                          "validation": {},
-                          "sticky": "",
-                          "labelColor": "#FFFFFF"
-                        },
-                        "status": {
-                          "index": 2,
-                          "width": 150,
-                          "id": "status",
-                          "originalId": "status",
-                          "alias": "status",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textSize": "0.875rem",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isCellVisible": true,
-                          "isCellEditable": false,
-                          "isDerived": false,
-                          "label": "status",
-                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
-                          "validation": {},
-                          "sticky": "",
-                          "labelColor": "#FFFFFF"
-                        },
-                        "action": {
-                          "index": 3,
-                          "width": 150,
-                          "id": "action",
-                          "originalId": "action",
-                          "alias": "action",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "button",
-                          "textSize": "0.875rem",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isCellVisible": true,
-                          "isCellEditable": false,
-                          "isDisabled": false,
-                          "isDerived": false,
-                          "label": "action",
-                          "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
-                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
-                          "validation": {},
-                          "sticky": "",
-                          "labelColor": "#FFFFFF",
-                          "buttonColor": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
-                          "borderRadius": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                          "boxShadow": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
-                        }
-                      },
-                      "key": "h5qc0flusw",
-                      "canFreezeColumn": true,
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "textSize": "0.875rem",
-                      "widgetId": "d6x5wnij1j",
-                      "minWidth": 450,
-                      "tableData": "[\n]",
-                      "label": "Data",
-                      "searchKey": "",
-                      "parentId": "wm9pq1bs3n",
-                      "renderMode": "CANVAS",
-                      "horizontalAlignment": "LEFT",
-                      "isVisibleSearch": true,
-                      "responsiveBehavior": "fill",
-                      "isVisiblePagination": true,
-                      "verticalAlignment": "CENTER"
-                    },
-                    {
-                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "borderColor": "#E0DEDE",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
-                      "onSubmit": "{{delete_medical_center_insuranc.run(() => postWindowMessage('Insurance Successfully Deleted!', 'window', '*'), () => {})}}",
+                      "onSubmit": "{{delete_medical_center_insuranc.run(() => {}, () => {})}}",
                       "topRow": 3,
                       "type": "JSON_FORM_WIDGET",
                       "animateLoading": true,
-                      "leftColumn": 22,
+                      "leftColumn": 33,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -1224,7 +1009,7 @@
                       },
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 42,
+                      "originalBottomRow": 39,
                       "useSourceData": false,
                       "schema": {
                         "__root_schema__": {
@@ -1285,7 +1070,7 @@
                       },
                       "dynamicPropertyPathList": [],
                       "displayName": "JSON Form",
-                      "bottomRow": 42,
+                      "bottomRow": 36,
                       "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
                       "title": "Delete Insurance Accepted By Policy Number",
@@ -1302,7 +1087,7 @@
                       "key": "2cpe93rl4m",
                       "backgroundColor": "#fff",
                       "isDeprecated": false,
-                      "rightColumn": 42,
+                      "rightColumn": 63,
                       "widgetId": "65sxikbrrx",
                       "minWidth": 450,
                       "parentId": "wm9pq1bs3n",
@@ -1313,6 +1098,208 @@
                       "originalTopRow": 3,
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "borderColor": "#E0DEDE",
+                      "isVisibleDownload": true,
+                      "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+                      "topRow": 38,
+                      "isSortable": true,
+                      "type": "TABLE_WIDGET_V2",
+                      "inlineEditingSaveOption": "ROW_LEVEL",
+                      "animateLoading": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "tableData"
+                        },
+                        {
+                          "key": "primaryColumns.company_name.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.plan_name.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.policy_id.computedValue"
+                        }
+                      ],
+                      "needsHeightForContent": true,
+                      "leftColumn": 0,
+                      "delimiter": ",",
+                      "defaultSelectedRowIndex": 0,
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisibleFilters": true,
+                      "isVisible": true,
+                      "enableClientSideSearch": true,
+                      "version": 1,
+                      "totalRecordsCount": 0,
+                      "isLoading": false,
+                      "childStylesheet": {
+                        "button": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "menuButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "iconButton": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "editActions": {
+                          "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        }
+                      },
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "columnUpdatedAt": 1681939058239,
+                      "originalBottomRow": 74,
+                      "defaultSelectedRowIndices": [
+                        0
+                      ],
+                      "widgetName": "insurance_accepted",
+                      "defaultPageSize": 0,
+                      "columnOrder": [
+                        "company_name",
+                        "plan_name",
+                        "policy_id"
+                      ],
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Table",
+                      "bottomRow": 71,
+                      "columnWidthMap": {
+                        "task": 245,
+                        "step": 70,
+                        "status": 85,
+                        "company_name": 213
+                      },
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "parentColumnSpace": 6.974609375,
+                      "dynamicTriggerPathList": [],
+                      "borderWidth": "1",
+                      "primaryColumns": {
+                        "company_name": {
+                          "allowCellWrapping": false,
+                          "index": 0,
+                          "width": 150,
+                          "originalId": "company_name",
+                          "id": "company_name",
+                          "alias": "company_name",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Insurance Company",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_name\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "plan_name": {
+                          "allowCellWrapping": false,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "plan_name",
+                          "id": "plan_name",
+                          "alias": "plan_name",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Policy Type",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"plan_name\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "policy_id": {
+                          "allowCellWrapping": false,
+                          "index": 2,
+                          "width": 150,
+                          "originalId": "policy_id",
+                          "id": "policy_id",
+                          "alias": "policy_id",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Policy ID",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"policy_id\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        }
+                      },
+                      "key": "h5qc0flusw",
+                      "canFreezeColumn": true,
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "textSize": "0.875rem",
+                      "widgetId": "d6x5wnij1j",
+                      "minWidth": 450,
+                      "tableData": "{{get_insurances_center_accepts.data}}",
+                      "label": "Data",
+                      "searchKey": "",
+                      "parentId": "wm9pq1bs3n",
+                      "renderMode": "CANVAS",
+                      "horizontalAlignment": "LEFT",
+                      "isVisibleSearch": true,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 41,
+                      "isVisiblePagination": true,
+                      "verticalAlignment": "CENTER"
                     }
                   ],
                   "key": "lqz8idw8ve",
@@ -1348,13 +1335,23 @@
               "responsiveBehavior": "fill",
               "originalTopRow": 2,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 48,
-              "originalBottomRow": 49,
-              "minDynamicHeight": 47
+              "maxDynamicHeight": 81,
+              "originalBottomRow": 78,
+              "minDynamicHeight": 74
             }
           ]
         },
         "layoutOnLoadActions": [
+          [
+            {
+              "id": "Healthcare Employee Emily 1_get_insurances_center_accepts",
+              "name": "get_insurances_center_accepts",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
           [
             {
               "id": "Healthcare Employee Emily 1_get_insurance_for_patient",
