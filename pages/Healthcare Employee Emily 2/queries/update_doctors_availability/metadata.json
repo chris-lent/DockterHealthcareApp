@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "delete_medical_center_insuranc",
+    "name": "update_doctors_availability",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/he/center_accepts_insurance_plan/30"
+        "url": "web:4000/he/availibility/"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Healthcare Employee Emily 1",
+    "pageId": "Healthcare Employee Emily 2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{delete_insurance.formData}}",
+      "body": "{{update_availability.formData}}",
       "bodyFormData": [],
-      "httpMethod": "DELETE",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -52,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "delete_insurance.formData"
+      "update_availability.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Healthcare Employee Emily 1_delete_medical_center_insuranc",
+  "id": "Healthcare Employee Emily 2_update_doctors_availability",
   "deleted": false,
-  "gitSyncId": "643ee0e2a22c9560f9d9a26c_64405437867f911c4b5ef748"
+  "gitSyncId": "643ee0e2a22c9560f9d9a26c_6440631b867f911c4b5ef754"
 }

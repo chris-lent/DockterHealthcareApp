@@ -1,1 +1,1 @@
-{{delete_insurance.sourceData}}
+{{delete_insurance.formData}}
