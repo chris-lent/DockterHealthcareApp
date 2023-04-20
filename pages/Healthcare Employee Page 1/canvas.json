@@ -1214,7 +1214,7 @@
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "columnUpdatedAt": 1681939058239,
-                      "originalBottomRow": 85,
+                      "originalBottomRow": 83,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -1343,7 +1343,7 @@
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 56,
+                      "originalTopRow": 54,
                       "isVisiblePagination": true,
                       "cellBackground": "#f0fdf4",
                       "verticalAlignment": "CENTER"
@@ -1377,7 +1377,7 @@
                       "version": 2,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 52,
+                      "originalBottomRow": 54,
                       "widgetName": "center_id_insurance",
                       "displayName": "Input",
                       "searchTags": [
@@ -1412,7 +1412,7 @@
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 45,
+                      "originalTopRow": 47,
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
                       "defaultText": "10",
@@ -1463,10 +1463,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 52,
+                      "originalTopRow": 49,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 56,
+                      "originalBottomRow": 53,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
