@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 570,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -146,8 +146,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 16,
-              "bottomRow": 20,
+              "topRow": 14,
+              "bottomRow": 18,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -156,7 +156,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 17.9375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 1,
+              "leftColumn": 19,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -173,7 +173,7 @@
               "text": "Current Medications in System:",
               "key": "6chlppeg5v",
               "isDeprecated": false,
-              "rightColumn": 17,
+              "rightColumn": 35,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "ij7ibwim45",
@@ -212,7 +212,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 17.9375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 26,
+              "leftColumn": 40,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -229,7 +229,7 @@
               "text": "Update Phone Number:",
               "key": "6chlppeg5v",
               "isDeprecated": false,
-              "rightColumn": 42,
+              "rightColumn": 56,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "5of2uvss78",
@@ -269,7 +269,7 @@
               "parentColumnSpace": 4.732421875,
               "dynamicTriggerPathList": [],
               "resetOnSubmit": true,
-              "leftColumn": 26,
+              "leftColumn": 40,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -286,7 +286,7 @@
               "labelTextSize": "0.875rem",
               "isRequired": false,
               "isDeprecated": false,
-              "rightColumn": 42,
+              "rightColumn": 56,
               "dynamicHeight": "FIXED",
               "widgetId": "ckzy3v1096",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -330,7 +330,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 42,
+              "leftColumn": 56,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -343,7 +343,7 @@
               "isDisabled": false,
               "key": "ftgrssnage",
               "isDeprecated": false,
-              "rightColumn": 47,
+              "rightColumn": 61,
               "isDefaultClickDisabled": true,
               "widgetId": "ya9obarifg",
               "minWidth": 120,
