@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 590,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -30,7 +30,7 @@
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
               "onSubmit": "{{update_doctors_availability.run()}}",
-              "topRow": 1,
+              "topRow": 0,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
               "leftColumn": 1,
@@ -200,7 +200,7 @@
               },
               "disabledWhenInvalid": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 60,
+              "originalBottomRow": 59,
               "useSourceData": false,
               "schema": {
                 "__root_schema__": {
@@ -349,7 +349,7 @@
               },
               "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
-              "bottomRow": 60,
+              "bottomRow": 59,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Update Doctor Availability",
@@ -374,7 +374,7 @@
               "scrollContents": true,
               "responsiveBehavior": "fill",
               "fixedFooter": true,
-              "originalTopRow": 1,
+              "originalTopRow": 0,
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 4
             },
@@ -391,7 +391,7 @@
                 "group"
               ],
               "topRow": 1,
-              "bottomRow": 34,
+              "bottomRow": 59,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -413,7 +413,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 330,
+                  "bottomRow": 580,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -504,7 +504,7 @@
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "columnUpdatedAt": 1681953088705,
-                      "originalBottomRow": 29,
+                      "originalBottomRow": 30,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -521,7 +521,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 29,
+                      "bottomRow": 55,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -750,7 +750,7 @@
                       "textSize": "0.875rem",
                       "widgetId": "uad6lw5r6w",
                       "minWidth": 450,
-                      "tableData": "{{get_doctors_availability.data}}",
+                      "tableData": "{{get_centers_availability.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "ucot23kqps",
@@ -758,7 +758,7 @@
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 13,
+                      "originalTopRow": 14,
                       "isVisiblePagination": true,
                       "verticalAlignment": "CENTER"
                     },
@@ -795,10 +795,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Doctor's Availability:",
+                      "text": "Doctor Availability at a Medical Center:",
                       "key": "vbvh1yl4sn",
                       "isDeprecated": false,
-                      "rightColumn": 16,
+                      "rightColumn": 32,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "5pgt1xvuif",
@@ -814,14 +814,14 @@
                       "originalTopRow": 0,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 4,
+                      "originalBottomRow": 5,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{get_doctors_availability.run()}}",
+                      "onSubmit": "{{get_centers_availability.run()}}",
                       "topRow": 5,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -847,8 +847,8 @@
                       "version": 2,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 12,
-                      "widgetName": "doctor_id_avail",
+                      "originalBottomRow": 13,
+                      "widgetName": "center_id_avail",
                       "displayName": "Input",
                       "searchTags": [
                         "form",
@@ -877,12 +877,12 @@
                       "rightColumn": 41,
                       "widgetId": "f9wh4wgndz",
                       "minWidth": 450,
-                      "label": "Input Doctor's ID Number and hit enter to return their availability in the table below",
+                      "label": "Input Center ID Number and hit enter to return their availability in the table below",
                       "parentId": "ucot23kqps",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
+                      "originalTopRow": 6,
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
                       "defaultText": "10",
@@ -922,21 +922,21 @@
               "responsiveBehavior": "fill",
               "originalTopRow": 1,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 38,
-              "originalBottomRow": 34,
-              "minDynamicHeight": 33
+              "maxDynamicHeight": 63,
+              "originalBottomRow": 59,
+              "minDynamicHeight": 58
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Healthcare Employee Emily 2_get_doctors_availability",
-              "name": "get_doctors_availability",
+              "id": "Healthcare Employee Emily 2_get_centers_availability",
+              "name": "get_centers_availability",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "doctor_id_avail.inputText"
+                "center_id_avail.inputText"
               ],
               "timeoutInMillisecond": 10000
             }

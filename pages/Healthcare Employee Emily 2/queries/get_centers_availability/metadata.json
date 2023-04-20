@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_doctors_availability",
+    "name": "get_centers_availability",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"doc_id\": {{doctor_id_avail.inputText}}\n}",
+      "body": "{\n\t\"center_id\": {{center_id_avail.inputText}}\n}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -52,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "doctor_id_avail.inputText"
+      "center_id_avail.inputText"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Healthcare Employee Emily 2_get_doctors_availability",
+  "id": "Healthcare Employee Emily 2_get_centers_availability",
   "deleted": false,
   "gitSyncId": "643ee0e2a22c9560f9d9a26c_64408f589e1003097c06e679"
 }

@@ -1,0 +1,3 @@
+{
+	"center_id": {{center_id_avail.inputText}}
+}
