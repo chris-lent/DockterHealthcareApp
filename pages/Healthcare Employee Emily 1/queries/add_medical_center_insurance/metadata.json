@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/he/center_accepts_insurance_plan/30"
+        "url": "web:4000/he/center_accepts_insurance_plan"
       },
       "invalids": [],
       "messages": [],
