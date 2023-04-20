@@ -92,7 +92,7 @@
                 "label"
               ],
               "topRow": 15,
-              "bottomRow": 19,
+              "bottomRow": 34,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -115,7 +115,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Healthcare Employee Persona 1: Insurance User Story",
+              "text": "Healthcare Employee Page 1:\nRelates to User Stories 2 and 3 for Emily\n\nHealthcare Employee Page 2:\nRelates to User Stories 1, 2, and 4 for Emily.\n\nPatient Page 1:\n\nPatient Page 2:",
               "key": "7192x8rr02",
               "isDeprecated": false,
               "rightColumn": 29,
@@ -134,7 +134,7 @@
               "originalTopRow": 15,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 20,
+              "originalBottomRow": 19,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             }
