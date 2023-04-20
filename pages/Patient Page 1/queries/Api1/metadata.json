@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Patient Jane Persona 1",
+    "pageId": "Patient Page 1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Patient Jane Persona 1_Api1",
+  "id": "Patient Page 1_Api1",
   "deleted": false,
   "gitSyncId": "64416d67354d4d75a8f5982d_644179ea354d4d75a8f59846"
 }

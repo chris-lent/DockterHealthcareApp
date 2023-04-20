@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Patient Jane Persona 1",
-    "slug": "patient-jane-persona-1",
+    "name": "Patient Page 1",
+    "slug": "patient-page-1",
     "layouts": [
       {
         "viewMode": false,
@@ -319,7 +319,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Patient Jane Persona 1",
+        "id": "Patient Page 1",
         "deleted": false,
         "policies": [],
         "userPermissions": []

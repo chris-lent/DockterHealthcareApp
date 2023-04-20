@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Patient Jane Persona 2",
-    "slug": "patient-jane-persona-2",
+    "name": "Patient Page 2",
+    "slug": "patient-page-2",
     "layouts": [
       {
         "viewMode": false,
@@ -354,7 +354,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Patient Jane Persona 2_centers_accept_insurance",
+              "id": "Patient Page 2_centers_accept_insurance",
               "name": "centers_accept_insurance",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -365,7 +365,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Patient Jane Persona 2",
+        "id": "Patient Page 2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
