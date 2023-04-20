@@ -2175,7 +2175,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "center_id",
+                          "label": "Center ID",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{get_services_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"center_id\"]))}}",
@@ -2204,7 +2204,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "service_id",
+                          "label": "Service ID",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{get_services_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"service_id\"]))}}",
@@ -2550,7 +2550,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1682014285267,
+                      "columnUpdatedAt": 1682014468078,
                       "originalBottomRow": 42,
                       "defaultSelectedRowIndices": [
                         0
@@ -2558,8 +2558,8 @@
                       "widgetName": "get_services_prof",
                       "defaultPageSize": 0,
                       "columnOrder": [
-                        "service_id",
-                        "doc_id"
+                        "doc_id",
+                        "service_id"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
@@ -2596,7 +2596,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "service_id",
+                          "label": "Service ID",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{get_services_prof.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"service_id\"]))}}",
@@ -2625,7 +2625,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "doc_id",
+                          "label": "Doctor ID",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{get_services_prof.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"doc_id\"]))}}",
