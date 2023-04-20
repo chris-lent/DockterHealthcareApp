@@ -989,13 +989,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1032,10 +1026,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1196,7 +1190,7 @@
               },
               "widgetName": "addServicesCenter",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -1218,7 +1212,7 @@
               "sourceData": "{\n\t\"center_id\": 10,\n\t\"service_id\": 12\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 12,
               "widgetId": "8pwmk3f6bi",
@@ -1249,13 +1243,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1292,10 +1280,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1456,7 +1444,7 @@
               },
               "widgetName": "deleteServicesCenter",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -1478,7 +1466,7 @@
               "sourceData": "{\n\t\"center_id\": 10,\n\t\"service_id\": 12\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 23,
               "widgetId": "4a7nofpdtp",
@@ -1509,13 +1497,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1552,10 +1534,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1716,7 +1698,7 @@
               },
               "widgetName": "deleteServicesProf",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -1738,7 +1720,7 @@
               "sourceData": "{\n  \"doc_id\": 80,\n  \"service_id\": 19\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 46,
               "widgetId": "86bv6403pq",
@@ -1769,13 +1751,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1812,10 +1788,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1976,7 +1952,7 @@
               },
               "widgetName": "addServicesProf",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -1998,7 +1974,7 @@
               "sourceData": "{\n  \"doc_id\": 80,\n  \"service_id\": 19\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 35,
               "widgetId": "vs3ftp3snv",
