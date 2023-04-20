@@ -228,7 +228,7 @@
                               "isSpellCheck": false,
                               "isVisible": true,
                               "labelTextSize": "0.875rem",
-                              "label": "Patient Id"
+                              "label": "Patient id"
                             }
                           },
                           "dataType": "object",
