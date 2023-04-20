@@ -417,7 +417,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"plan_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": "#bbf7d0"
+                          "cellBackground": ""
                         },
                         "policy_id": {
                           "allowCellWrapping": false,
@@ -446,7 +446,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"policy_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": "#bbf7d0"
+                          "cellBackground": ""
                         },
                         "company_name": {
                           "allowCellWrapping": false,
@@ -475,7 +475,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": "#bbf7d0"
+                          "cellBackground": ""
                         }
                       },
                       "key": "bomgl4dwy3",
@@ -495,7 +495,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 34,
                       "isVisiblePagination": true,
-                      "cellBackground": "#bbf7d0",
+                      "cellBackground": "",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -1147,7 +1147,7 @@
                     },
                     {
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "borderColor": "#E0DEDE",
+                      "borderColor": "#e0dede",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
                       "topRow": 56,
@@ -1267,7 +1267,7 @@
                           "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fafafa"
                         },
                         "plan_name": {
                           "allowCellWrapping": false,
@@ -1296,7 +1296,7 @@
                           "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"plan_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fafafa"
                         },
                         "policy_id": {
                           "allowCellWrapping": false,
@@ -1325,7 +1325,7 @@
                           "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"policy_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#fafafa"
                         }
                       },
                       "key": "h5qc0flusw",
@@ -1345,7 +1345,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 56,
                       "isVisiblePagination": true,
-                      "cellBackground": "",
+                      "cellBackground": "#fafafa",
                       "verticalAlignment": "CENTER"
                     },
                     {
