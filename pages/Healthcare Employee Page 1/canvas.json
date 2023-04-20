@@ -87,13 +87,7 @@
                           "key": "boxShadow"
                         },
                         {
-                          "key": "submitButtonStyles.buttonColor"
-                        },
-                        {
                           "key": "submitButtonStyles.borderRadius"
-                        },
-                        {
-                          "key": "resetButtonStyles.buttonColor"
                         },
                         {
                           "key": "resetButtonStyles.borderRadius"
@@ -121,10 +115,10 @@
                       "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
                       "autoGenerateForm": true,
                       "resetButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#166534",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
-                        "buttonVariant": "SECONDARY"
+                        "buttonVariant": "TERTIARY"
                       },
                       "isVisible": true,
                       "version": 1,
@@ -263,7 +257,7 @@
                       },
                       "widgetName": "PatientIDInsurance",
                       "submitButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#15803d",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
                         "buttonVariant": "PRIMARY"
@@ -286,7 +280,7 @@
                       "sourceData": "{\n  \"patient_id\":1 \n}",
                       "resetButtonLabel": "Reset",
                       "key": "ef3z88va3o",
-                      "backgroundColor": "#fff",
+                      "backgroundColor": "#4ade80",
                       "isDeprecated": false,
                       "rightColumn": 46,
                       "widgetId": "7hysaqz577",
@@ -302,7 +296,7 @@
                     },
                     {
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "borderColor": "#E0DEDE",
+                      "borderColor": "#4ade80",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
                       "topRow": 34,
@@ -423,7 +417,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"plan_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#bbf7d0"
                         },
                         "policy_id": {
                           "allowCellWrapping": false,
@@ -452,7 +446,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"policy_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#bbf7d0"
                         },
                         "company_name": {
                           "allowCellWrapping": false,
@@ -481,7 +475,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#bbf7d0"
                         }
                       },
                       "key": "bomgl4dwy3",
@@ -501,6 +495,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 34,
                       "isVisiblePagination": true,
+                      "cellBackground": "#bbf7d0",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -578,7 +573,7 @@
               ],
               "borderWidth": "1",
               "key": "t7tjmgmxbj",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#dcfce7",
               "isDeprecated": false,
               "rightColumn": 33,
               "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
@@ -659,13 +654,7 @@
                           "key": "boxShadow"
                         },
                         {
-                          "key": "submitButtonStyles.buttonColor"
-                        },
-                        {
                           "key": "submitButtonStyles.borderRadius"
-                        },
-                        {
-                          "key": "resetButtonStyles.buttonColor"
                         },
                         {
                           "key": "resetButtonStyles.borderRadius"
@@ -702,10 +691,10 @@
                       "dynamicHeight": "AUTO_HEIGHT",
                       "autoGenerateForm": true,
                       "resetButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#166534",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
-                        "buttonVariant": "SECONDARY"
+                        "buttonVariant": "TERTIARY"
                       },
                       "isVisible": true,
                       "version": 1,
@@ -866,7 +855,7 @@
                       },
                       "widgetName": "post_insurance",
                       "submitButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#15803d",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
                         "buttonVariant": "PRIMARY"
@@ -888,7 +877,7 @@
                       "sourceData": "{\n  \"policy_id\": 6,\n\t\"center_id\": 10\n}\n",
                       "resetButtonLabel": "Reset",
                       "key": "2cpe93rl4m",
-                      "backgroundColor": "#fff",
+                      "backgroundColor": "#4ade80",
                       "isDeprecated": false,
                       "rightColumn": 32,
                       "widgetId": "ifwzfdbfc5",
@@ -919,13 +908,7 @@
                           "key": "boxShadow"
                         },
                         {
-                          "key": "submitButtonStyles.buttonColor"
-                        },
-                        {
                           "key": "submitButtonStyles.borderRadius"
-                        },
-                        {
-                          "key": "resetButtonStyles.buttonColor"
                         },
                         {
                           "key": "resetButtonStyles.borderRadius"
@@ -962,10 +945,10 @@
                       "dynamicHeight": "AUTO_HEIGHT",
                       "autoGenerateForm": true,
                       "resetButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#166534",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
-                        "buttonVariant": "SECONDARY"
+                        "buttonVariant": "TERTIARY"
                       },
                       "isVisible": true,
                       "version": 1,
@@ -1126,7 +1109,7 @@
                       },
                       "widgetName": "delete_insurance",
                       "submitButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#15803d",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
                         "buttonVariant": "PRIMARY"
@@ -1148,7 +1131,7 @@
                       "sourceData": "{\n\"policy_id\": 6,\n\"center_id\": 10\n}",
                       "resetButtonLabel": "Reset",
                       "key": "2cpe93rl4m",
-                      "backgroundColor": "#fff",
+                      "backgroundColor": "#4ade80",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "widgetId": "65sxikbrrx",
@@ -1362,6 +1345,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 56,
                       "isVisiblePagination": true,
+                      "cellBackground": "",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -1439,7 +1423,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{get_insurances_center_accepts.run()}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#22c55e",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1460,9 +1444,6 @@
                       ],
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -1508,7 +1489,7 @@
               ],
               "borderWidth": "1",
               "key": "cj2enkl7au",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#dcfce7",
               "isDeprecated": false,
               "rightColumn": 64,
               "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
