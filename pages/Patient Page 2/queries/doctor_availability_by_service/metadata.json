@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "med_center_by_location",
+    "name": "doctor_availability_by_service",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pt/medical_center_location"
+        "url": "web:4000/pt/doc_availability_by_service"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\tpatientID: {{PatientID.text}}\n}",
+      "body": "{\n  \"serviceName\" : {{ServiceName2.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -52,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "PatientID.text"
+      "ServiceName2.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Patient Page 2_med_center_by_location",
+  "id": "Patient Page 2_doctor_availability_by_service",
   "deleted": false,
-  "gitSyncId": "64419fa5d03f5c19dc52aedc_6441a031d03f5c19dc52aef7"
+  "gitSyncId": "643ee0e2a22c9560f9d9a26c_6441c684350569057077ae37"
 }
