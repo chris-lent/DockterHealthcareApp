@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 870,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -280,7 +280,7 @@
                       "sourceData": "{\n  \"patient_id\":1 \n}",
                       "resetButtonLabel": "Reset",
                       "key": "ef3z88va3o",
-                      "backgroundColor": "#4ade80",
+                      "backgroundColor": "#86efac",
                       "isDeprecated": false,
                       "rightColumn": 46,
                       "widgetId": "7hysaqz577",
@@ -417,7 +417,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"plan_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#f0fdf4"
                         },
                         "policy_id": {
                           "allowCellWrapping": false,
@@ -446,7 +446,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"policy_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#f0fdf4"
                         },
                         "company_name": {
                           "allowCellWrapping": false,
@@ -475,7 +475,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#f0fdf4"
                         }
                       },
                       "key": "bomgl4dwy3",
@@ -495,7 +495,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 34,
                       "isVisiblePagination": true,
-                      "cellBackground": "",
+                      "cellBackground": "#f0fdf4",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -605,7 +605,7 @@
                 "group"
               ],
               "topRow": 2,
-              "bottomRow": 89,
+              "bottomRow": 87,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -627,7 +627,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 870,
+                  "bottomRow": 850,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -877,7 +877,7 @@
                       "sourceData": "{\n  \"policy_id\": 6,\n\t\"center_id\": 10\n}\n",
                       "resetButtonLabel": "Reset",
                       "key": "2cpe93rl4m",
-                      "backgroundColor": "#4ade80",
+                      "backgroundColor": "#86efac",
                       "isDeprecated": false,
                       "rightColumn": 32,
                       "widgetId": "ifwzfdbfc5",
@@ -1131,7 +1131,7 @@
                       "sourceData": "{\n\"policy_id\": 6,\n\"center_id\": 10\n}",
                       "resetButtonLabel": "Reset",
                       "key": "2cpe93rl4m",
-                      "backgroundColor": "#4ade80",
+                      "backgroundColor": "#86efac",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "widgetId": "65sxikbrrx",
@@ -1150,7 +1150,7 @@
                       "borderColor": "#e0dede",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 56,
+                      "topRow": 54,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -1179,7 +1179,7 @@
                         }
                       ],
                       "needsHeightForContent": true,
-                      "leftColumn": 1,
+                      "leftColumn": 2,
                       "delimiter": ",",
                       "defaultSelectedRowIndex": 0,
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1227,7 +1227,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 85,
+                      "bottomRow": 83,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -1267,7 +1267,7 @@
                           "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": "#fafafa"
+                          "cellBackground": "#f0fdf4"
                         },
                         "plan_name": {
                           "allowCellWrapping": false,
@@ -1296,7 +1296,7 @@
                           "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"plan_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": "#fafafa"
+                          "cellBackground": "#f0fdf4"
                         },
                         "policy_id": {
                           "allowCellWrapping": false,
@@ -1325,13 +1325,13 @@
                           "computedValue": "{{insurance_accepted.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"policy_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": "#fafafa"
+                          "cellBackground": "#f0fdf4"
                         }
                       },
                       "key": "h5qc0flusw",
                       "canFreezeColumn": true,
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "d6x5wnij1j",
                       "minWidth": 450,
@@ -1345,19 +1345,19 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 56,
                       "isVisiblePagination": true,
-                      "cellBackground": "#fafafa",
+                      "cellBackground": "#f0fdf4",
                       "verticalAlignment": "CENTER"
                     },
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "onSubmit": "",
-                      "topRow": 43,
+                      "topRow": 47,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
                       "resetOnSubmit": true,
-                      "leftColumn": 1,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1377,7 +1377,7 @@
                       "version": 2,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 50,
+                      "originalBottomRow": 52,
                       "widgetName": "center_id_insurance",
                       "displayName": "Input",
                       "searchTags": [
@@ -1386,7 +1386,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 50,
+                      "bottomRow": 54,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -1404,7 +1404,7 @@
                       "labelTextSize": "0.875rem",
                       "onTextChanged": "",
                       "isDeprecated": false,
-                      "rightColumn": 46,
+                      "rightColumn": 47,
                       "widgetId": "n696yuql1n",
                       "minWidth": 450,
                       "label": "Insert Center ID to return Insurance Plans Accepted",
@@ -1412,7 +1412,7 @@
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 43,
+                      "originalTopRow": 45,
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
                       "defaultText": "10",
@@ -1423,15 +1423,15 @@
                       "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{get_insurances_center_accepts.run()}}",
-                      "buttonColor": "#22c55e",
+                      "buttonColor": "#4ade80",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
                         "click",
                         "submit"
                       ],
-                      "topRow": 51,
-                      "bottomRow": 55,
+                      "topRow": 49,
+                      "bottomRow": 53,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1442,7 +1442,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 1,
+                      "leftColumn": 47,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -1452,7 +1452,7 @@
                       "isDisabled": false,
                       "key": "a8hvcbt1r0",
                       "isDeprecated": false,
-                      "rightColumn": 17,
+                      "rightColumn": 63,
                       "isDefaultClickDisabled": true,
                       "widgetId": "6ib8c2ljo5",
                       "minWidth": 120,
@@ -1463,10 +1463,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 51,
+                      "originalTopRow": 52,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 55,
+                      "originalBottomRow": 56,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
@@ -1505,7 +1505,7 @@
               "originalTopRow": 2,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 88,
-              "originalBottomRow": 89,
+              "originalBottomRow": 87,
               "minDynamicHeight": 74
             }
           ]
