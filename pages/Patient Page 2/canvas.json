@@ -205,7 +205,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1682033040500,
+                      "columnUpdatedAt": 1682034296946,
                       "originalBottomRow": 51,
                       "defaultSelectedRowIndices": [
                         0
@@ -214,9 +214,9 @@
                       "defaultPageSize": 0,
                       "columnOrder": [
                         "center_name",
+                        "street_address",
                         "city",
                         "state",
-                        "street_address",
                         "zipcode"
                       ],
                       "dynamicPropertyPathList": [],
@@ -225,7 +225,9 @@
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
-                        "status": 85
+                        "status": 85,
+                        "center_name": 222,
+                        "state": 77
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -280,7 +282,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "city",
+                          "label": "City",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
@@ -309,7 +311,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "state",
+                          "label": "State",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
@@ -338,7 +340,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "street_address",
+                          "label": "Address",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"street_address\"]))}}",
@@ -367,7 +369,7 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "zipcode",
+                          "label": "Zipcode",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zipcode\"]))}}",
@@ -379,7 +381,7 @@
                       "key": "4209uj39ks",
                       "canFreezeColumn": true,
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 59,
                       "textSize": "0.875rem",
                       "widgetId": "aikajwot7k",
                       "minWidth": 450,
@@ -975,7 +977,7 @@
               "widgetId": "fqvaznbu5s",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "Filter by Insurance",
-              "onTabSelected": "",
+              "onTabSelected": "{{med_center_by_service.run()}}",
               "shouldShowTabs": true,
               "minWidth": 450,
               "tabsObj": {
@@ -1333,6 +1335,12 @@
                 },
                 {
                   "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.first_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.last_name.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -1370,7 +1378,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1682032458531,
+              "columnUpdatedAt": 1682034347702,
               "originalBottomRow": 96,
               "defaultSelectedRowIndices": [
                 0
@@ -1378,6 +1386,8 @@
               "widgetName": "Table4",
               "defaultPageSize": 0,
               "columnOrder": [
+                "first_name",
+                "last_name",
                 "day_of_week",
                 "doc_id",
                 "end_time",
@@ -1512,12 +1522,70 @@
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
+                },
+                "first_name": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "first_name",
+                  "id": "first_name",
+                  "alias": "first_name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "first_name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "last_name": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "last_name",
+                  "id": "last_name",
+                  "alias": "last_name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "last_name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
                 }
               },
               "key": "0vlln3jkvf",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 35,
+              "rightColumn": 55,
               "textSize": "0.875rem",
               "widgetId": "mwxe3xoccm",
               "minWidth": 450,
