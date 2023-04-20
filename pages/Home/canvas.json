@@ -29,7 +29,7 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Container1",
-              "borderColor": "#E0DEDE",
+              "borderColor": "#bbf7d0",
               "isCanvas": true,
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
@@ -90,7 +90,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
+                      "leftColumn": 4,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -107,7 +107,7 @@
                       "text": "<h1>Dockter App Welcome Page<h1>",
                       "key": "7192x8rr02",
                       "isDeprecated": false,
-                      "rightColumn": 54,
+                      "rightColumn": 55,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "28iplyc1wj",
@@ -530,9 +530,9 @@
                       "parentId": "isrmgul5o7",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 35,
+                      "originalTopRow": 36,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 39,
+                      "originalBottomRow": 41,
                       "buttonVariant": "PRIMARY"
                     }
                   ],
@@ -554,7 +554,7 @@
               ],
               "borderWidth": "1",
               "key": "lrh87o27wa",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#f0fdf4",
               "isDeprecated": false,
               "rightColumn": 47,
               "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
