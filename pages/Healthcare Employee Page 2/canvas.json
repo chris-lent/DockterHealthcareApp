@@ -124,6 +124,7 @@
                       "isVisible": true,
                       "enableClientSideSearch": true,
                       "version": 1,
+                      "textColor": "#231f20",
                       "totalRecordsCount": 0,
                       "isLoading": false,
                       "childStylesheet": {
@@ -196,7 +197,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textColor": "",
+                          "textColor": "#231f20",
                           "textSize": "0.875rem",
                           "fontStyle": "",
                           "enableFilter": true,
@@ -213,7 +214,7 @@
                           "computedValue": "{{doctors_availability.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"day_of_week\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "doc_id": {
                           "allowCellWrapping": false,
@@ -225,7 +226,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "number",
-                          "textColor": "",
+                          "textColor": "#231f20",
                           "textSize": "0.875rem",
                           "fontStyle": "",
                           "enableFilter": true,
@@ -242,7 +243,7 @@
                           "computedValue": "{{doctors_availability.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"doc_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "end_time": {
                           "allowCellWrapping": false,
@@ -254,7 +255,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textColor": "",
+                          "textColor": "#231f20",
                           "textSize": "0.875rem",
                           "fontStyle": "",
                           "enableFilter": true,
@@ -271,7 +272,7 @@
                           "computedValue": "{{doctors_availability.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"end_time\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "first_name": {
                           "allowCellWrapping": false,
@@ -283,7 +284,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textColor": "",
+                          "textColor": "#231f20",
                           "textSize": "0.875rem",
                           "fontStyle": "",
                           "enableFilter": true,
@@ -300,7 +301,7 @@
                           "computedValue": "{{doctors_availability.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "last_name": {
                           "allowCellWrapping": false,
@@ -312,7 +313,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textColor": "",
+                          "textColor": "#231f20",
                           "textSize": "0.875rem",
                           "fontStyle": "",
                           "enableFilter": true,
@@ -329,7 +330,7 @@
                           "computedValue": "{{doctors_availability.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "sched_id": {
                           "allowCellWrapping": false,
@@ -341,7 +342,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "number",
-                          "textColor": "",
+                          "textColor": "#231f20",
                           "textSize": "0.875rem",
                           "fontStyle": "",
                           "enableFilter": true,
@@ -358,7 +359,7 @@
                           "computedValue": "{{doctors_availability.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sched_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "start_time": {
                           "allowCellWrapping": false,
@@ -370,7 +371,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textColor": "",
+                          "textColor": "#231f20",
                           "textSize": "0.875rem",
                           "fontStyle": "",
                           "enableFilter": true,
@@ -387,7 +388,7 @@
                           "computedValue": "{{doctors_availability.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"start_time\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         }
                       },
                       "key": "jwre8ps7m1",
@@ -407,6 +408,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 14,
                       "isVisiblePagination": true,
+                      "cellBackground": "#eff6ff",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -552,13 +554,7 @@
                           "key": "boxShadow"
                         },
                         {
-                          "key": "submitButtonStyles.buttonColor"
-                        },
-                        {
                           "key": "submitButtonStyles.borderRadius"
-                        },
-                        {
-                          "key": "resetButtonStyles.buttonColor"
                         },
                         {
                           "key": "resetButtonStyles.borderRadius"
@@ -622,10 +618,10 @@
                       "dynamicHeight": "AUTO_HEIGHT",
                       "autoGenerateForm": true,
                       "resetButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#1e40af",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
-                        "buttonVariant": "SECONDARY"
+                        "buttonVariant": "TERTIARY"
                       },
                       "isVisible": true,
                       "version": 1,
@@ -852,7 +848,7 @@
                       },
                       "widgetName": "update_availability",
                       "submitButtonStyles": {
-                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "buttonColor": "#1e40af",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
                         "buttonVariant": "PRIMARY"
@@ -874,7 +870,7 @@
                       "sourceData": "{\n  \"doc_id\": 16,\n  \"sched_id\": 196,\n  \"day_of_week\": \"TUE\", \n  \"start_time\": \"12:00:00\", \n  \"end_time\": \"4:00:00\"\n}",
                       "resetButtonLabel": "Reset",
                       "key": "qmh7lzb54d",
-                      "backgroundColor": "#fff",
+                      "backgroundColor": "#93c5fd",
                       "isDeprecated": false,
                       "rightColumn": 13,
                       "widgetId": "ywyksy3d83",
@@ -893,7 +889,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{get_centers_availability.run()}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#3b82f6",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -914,9 +910,6 @@
                       ],
                       "leftColumn": 15,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -960,7 +953,7 @@
               ],
               "borderWidth": "1",
               "key": "851dztka7k",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 63,
               "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
@@ -996,13 +989,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1039,10 +1026,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1203,7 +1190,7 @@
               },
               "widgetName": "addServicesCenter",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -1225,7 +1212,7 @@
               "sourceData": "{\n\t\"center_id\": 10,\n\t\"service_id\": 12\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 12,
               "widgetId": "8pwmk3f6bi",
@@ -1256,13 +1243,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1299,10 +1280,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1463,7 +1444,7 @@
               },
               "widgetName": "deleteServicesCenter",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -1485,7 +1466,7 @@
               "sourceData": "{\n\t\"center_id\": 10,\n\t\"service_id\": 12\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 23,
               "widgetId": "4a7nofpdtp",
@@ -1516,13 +1497,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1559,10 +1534,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1723,7 +1698,7 @@
               },
               "widgetName": "deleteServicesProf",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -1745,7 +1720,7 @@
               "sourceData": "{\n  \"doc_id\": 80,\n  \"service_id\": 19\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 46,
               "widgetId": "86bv6403pq",
@@ -1776,13 +1751,7 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
                   "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
                 },
                 {
                   "key": "resetButtonStyles.borderRadius"
@@ -1819,10 +1788,10 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "autoGenerateForm": true,
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1e40af",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonVariant": "TERTIARY"
               },
               "isVisible": true,
               "version": 1,
@@ -1983,7 +1952,7 @@
               },
               "widgetName": "addServicesProf",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "buttonColor": "#1d4ed8",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                 "boxShadow": "none",
                 "buttonVariant": "PRIMARY"
@@ -2005,7 +1974,7 @@
               "sourceData": "{\n  \"doc_id\": 80,\n  \"service_id\": 19\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 35,
               "widgetId": "vs3ftp3snv",
@@ -2022,7 +1991,7 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "GetServicesCenterContainer",
-              "borderColor": "#E0DEDE",
+              "borderColor": "#e0dede",
               "isCanvas": true,
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
@@ -2181,7 +2150,7 @@
                           "computedValue": "{{get_services_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"center_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "service_id": {
                           "allowCellWrapping": false,
@@ -2210,7 +2179,7 @@
                           "computedValue": "{{get_services_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"service_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         }
                       },
                       "key": "7go0pwrbxc",
@@ -2230,6 +2199,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 14,
                       "isVisiblePagination": true,
+                      "cellBackground": "#eff6ff",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -2298,7 +2268,7 @@
                       "boxShadow": "none",
                       "widgetName": "get_services_button",
                       "onClick": "{{get_services_center.run()}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#1d4ed8",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -2319,9 +2289,6 @@
                       ],
                       "leftColumn": 45,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -2421,7 +2388,7 @@
               ],
               "borderWidth": "1",
               "key": "lrh87o27wa",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 23,
               "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
@@ -2602,7 +2569,7 @@
                           "computedValue": "{{get_services_prof.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"service_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "doc_id": {
                           "allowCellWrapping": false,
@@ -2631,7 +2598,7 @@
                           "computedValue": "{{get_services_prof.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"doc_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         }
                       },
                       "key": "7go0pwrbxc",
@@ -2651,6 +2618,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 14,
                       "isVisiblePagination": true,
+                      "cellBackground": "#eff6ff",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -2719,7 +2687,7 @@
                       "boxShadow": "none",
                       "widgetName": "get_services_buttonCopy",
                       "onClick": "{{get_services_professional.run()}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#1d4ed8",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -2740,9 +2708,6 @@
                       ],
                       "leftColumn": 45,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -2842,7 +2807,7 @@
               ],
               "borderWidth": "1",
               "key": "lrh87o27wa",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 47,
               "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
@@ -2964,7 +2929,7 @@
                     },
                     {
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "borderColor": "#E0DEDE",
+                      "borderColor": "#e0dede",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
                       "topRow": 14,
@@ -3080,7 +3045,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"service_id\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         },
                         "service_name": {
                           "allowCellWrapping": false,
@@ -3109,7 +3074,7 @@
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"service_name\"]))}}",
                           "sticky": "",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#eff6ff"
                         }
                       },
                       "key": "7go0pwrbxc",
@@ -3129,6 +3094,7 @@
                       "responsiveBehavior": "fill",
                       "originalTopRow": 14,
                       "isVisiblePagination": true,
+                      "cellBackground": "#eff6ff",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -3197,7 +3163,7 @@
                       "boxShadow": "none",
                       "widgetName": "ServiceIDButton",
                       "onClick": "{{get_service_details.run()}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#1d4ed8",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -3218,9 +3184,6 @@
                       ],
                       "leftColumn": 16,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -3264,7 +3227,7 @@
               ],
               "borderWidth": "1",
               "key": "lrh87o27wa",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 28,
               "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
