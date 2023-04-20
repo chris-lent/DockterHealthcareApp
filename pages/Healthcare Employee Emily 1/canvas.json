@@ -647,10 +647,10 @@
                       "borderColor": "#E0DEDE",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
                       "onSubmit": "{{add_medical_center_insurance.run(() => get_insurances_center_accepts.run(), () => {})}}",
-                      "topRow": 5,
+                      "topRow": 2,
                       "type": "JSON_FORM_WIDGET",
                       "animateLoading": true,
-                      "leftColumn": 1,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -790,7 +790,7 @@
                       },
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 45,
+                      "originalBottomRow": 42,
                       "useSourceData": false,
                       "schema": {
                         "__root_schema__": {
@@ -873,7 +873,7 @@
                       },
                       "dynamicPropertyPathList": [],
                       "displayName": "JSON Form",
-                      "bottomRow": 45,
+                      "bottomRow": 42,
                       "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
                       "title": "Add Insurance Accepted By Policy Number",
@@ -890,7 +890,7 @@
                       "key": "2cpe93rl4m",
                       "backgroundColor": "#fff",
                       "isDeprecated": false,
-                      "rightColumn": 33,
+                      "rightColumn": 32,
                       "widgetId": "ifwzfdbfc5",
                       "minWidth": 450,
                       "parentId": "wm9pq1bs3n",
@@ -898,7 +898,7 @@
                       "scrollContents": true,
                       "responsiveBehavior": "fill",
                       "fixedFooter": true,
-                      "originalTopRow": 5,
+                      "originalTopRow": 2,
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
                     },
@@ -907,7 +907,7 @@
                       "borderColor": "#E0DEDE",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
                       "onSubmit": "{{delete_medical_center_insuranc.run(() => get_insurances_center_accepts.run(), () => {})}}",
-                      "topRow": 5,
+                      "topRow": 2,
                       "type": "JSON_FORM_WIDGET",
                       "animateLoading": true,
                       "leftColumn": 33,
@@ -1050,7 +1050,7 @@
                       },
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 45,
+                      "originalBottomRow": 42,
                       "useSourceData": false,
                       "schema": {
                         "__root_schema__": {
@@ -1133,7 +1133,7 @@
                       },
                       "dynamicPropertyPathList": [],
                       "displayName": "JSON Form",
-                      "bottomRow": 45,
+                      "bottomRow": 42,
                       "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
                       "title": "Delete Insurance Accepted By Policy Number",
@@ -1158,7 +1158,7 @@
                       "scrollContents": true,
                       "responsiveBehavior": "fill",
                       "fixedFooter": true,
-                      "originalTopRow": 5,
+                      "originalTopRow": 2,
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
                     },
@@ -1368,7 +1368,7 @@
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "onSubmit": "",
-                      "topRow": 45,
+                      "topRow": 43,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
@@ -1393,7 +1393,7 @@
                       "version": 2,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 52,
+                      "originalBottomRow": 50,
                       "widgetName": "center_id_insurance",
                       "displayName": "Input",
                       "searchTags": [
@@ -1402,7 +1402,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 52,
+                      "bottomRow": 50,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -1428,7 +1428,7 @@
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 45,
+                      "originalTopRow": 43,
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
                       "defaultText": "10",
@@ -1446,8 +1446,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 52,
-                      "bottomRow": 56,
+                      "topRow": 51,
+                      "bottomRow": 55,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1482,10 +1482,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 52,
+                      "originalTopRow": 51,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 56,
+                      "originalBottomRow": 55,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
