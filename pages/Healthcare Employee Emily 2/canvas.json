@@ -2718,7 +2718,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "get_services_buttonCopy",
-                      "onClick": "{{post_services_professional.run()}}",
+                      "onClick": "{{get_services_professional.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
