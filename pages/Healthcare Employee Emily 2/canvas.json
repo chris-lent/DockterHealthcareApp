@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1100,
+          "bottomRow": 1090,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -1450,10 +1450,11 @@
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
-              "topRow": 64,
+              "onSubmit": "{{delete_services_professional.run()}}",
+              "topRow": 62,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
-              "leftColumn": 37,
+              "leftColumn": 36,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1593,7 +1594,7 @@
               },
               "disabledWhenInvalid": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 105,
+              "originalBottomRow": 108,
               "useSourceData": false,
               "schema": {
                 "__root_schema__": {
@@ -1601,7 +1602,7 @@
                     "doc_id": {
                       "children": {},
                       "dataType": "number",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.doc_id))(JSONForm1CopyCopy1.sourceData, JSONForm1CopyCopy1.formData, JSONForm1CopyCopy1.fieldState)}}",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.doc_id))(deleteServicesProf.sourceData, deleteServicesProf.formData, deleteServicesProf.fieldState)}}",
                       "fieldType": "Number Input",
                       "sourceData": 80,
                       "isCustomField": false,
@@ -1609,8 +1610,8 @@
                       "identifier": "doc_id",
                       "position": 0,
                       "originalIdentifier": "doc_id",
-                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1CopyCopy1.sourceData, JSONForm1CopyCopy1.formData, JSONForm1CopyCopy1.fieldState)}}",
-                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1CopyCopy1.sourceData, JSONForm1CopyCopy1.formData, JSONForm1CopyCopy1.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(deleteServicesProf.sourceData, deleteServicesProf.formData, deleteServicesProf.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(deleteServicesProf.sourceData, deleteServicesProf.formData, deleteServicesProf.fieldState)}}",
                       "boxShadow": "none",
                       "iconAlign": "left",
                       "isDisabled": false,
@@ -1623,7 +1624,7 @@
                     "service_id": {
                       "children": {},
                       "dataType": "number",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.service_id))(JSONForm1CopyCopy1.sourceData, JSONForm1CopyCopy1.formData, JSONForm1CopyCopy1.fieldState)}}",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.service_id))(deleteServicesProf.sourceData, deleteServicesProf.formData, deleteServicesProf.fieldState)}}",
                       "fieldType": "Number Input",
                       "sourceData": 19,
                       "isCustomField": false,
@@ -1631,8 +1632,8 @@
                       "identifier": "service_id",
                       "position": 1,
                       "originalIdentifier": "service_id",
-                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1CopyCopy1.sourceData, JSONForm1CopyCopy1.formData, JSONForm1CopyCopy1.fieldState)}}",
-                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1CopyCopy1.sourceData, JSONForm1CopyCopy1.formData, JSONForm1CopyCopy1.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(deleteServicesProf.sourceData, deleteServicesProf.formData, deleteServicesProf.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(deleteServicesProf.sourceData, deleteServicesProf.formData, deleteServicesProf.fieldState)}}",
                       "boxShadow": "none",
                       "iconAlign": "left",
                       "isDisabled": false,
@@ -1667,7 +1668,7 @@
                   "label": ""
                 }
               },
-              "widgetName": "JSONForm1CopyCopy1",
+              "widgetName": "deleteServicesProf",
               "submitButtonStyles": {
                 "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -1676,20 +1677,24 @@
               },
               "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
-              "bottomRow": 110,
+              "bottomRow": 108,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Remove Services a Medical Professional Offers",
               "hideCard": false,
               "parentColumnSpace": 17.9375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onSubmit"
+                }
+              ],
               "borderWidth": "1",
               "sourceData": "{\n  \"doc_id\": 80,\n  \"service_id\": 19\n}",
               "resetButtonLabel": "Reset",
               "key": "9tqe4dgfui",
               "backgroundColor": "#fff",
               "isDeprecated": false,
-              "rightColumn": 48,
+              "rightColumn": 47,
               "widgetId": "86bv6403pq",
               "minWidth": 450,
               "parentId": "0",
@@ -1697,7 +1702,7 @@
               "scrollContents": true,
               "responsiveBehavior": "fill",
               "fixedFooter": true,
-              "originalTopRow": 64,
+              "originalTopRow": 62,
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 4
             },
@@ -1705,6 +1710,7 @@
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
+              "onSubmit": "{{post_services_professional.run()}}",
               "topRow": 63,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
@@ -1856,7 +1862,7 @@
                     "doc_id": {
                       "children": {},
                       "dataType": "number",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.doc_id))(JSONForm1CopyCopy.sourceData, JSONForm1CopyCopy.formData, JSONForm1CopyCopy.fieldState)}}",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.doc_id))(addServicesProf.sourceData, addServicesProf.formData, addServicesProf.fieldState)}}",
                       "fieldType": "Number Input",
                       "sourceData": 80,
                       "isCustomField": false,
@@ -1864,8 +1870,8 @@
                       "identifier": "doc_id",
                       "position": 0,
                       "originalIdentifier": "doc_id",
-                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1CopyCopy.sourceData, JSONForm1CopyCopy.formData, JSONForm1CopyCopy.fieldState)}}",
-                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1CopyCopy.sourceData, JSONForm1CopyCopy.formData, JSONForm1CopyCopy.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(addServicesProf.sourceData, addServicesProf.formData, addServicesProf.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(addServicesProf.sourceData, addServicesProf.formData, addServicesProf.fieldState)}}",
                       "boxShadow": "none",
                       "iconAlign": "left",
                       "isDisabled": false,
@@ -1878,7 +1884,7 @@
                     "service_id": {
                       "children": {},
                       "dataType": "number",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.service_id))(JSONForm1CopyCopy.sourceData, JSONForm1CopyCopy.formData, JSONForm1CopyCopy.fieldState)}}",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.service_id))(addServicesProf.sourceData, addServicesProf.formData, addServicesProf.fieldState)}}",
                       "fieldType": "Number Input",
                       "sourceData": 19,
                       "isCustomField": false,
@@ -1886,8 +1892,8 @@
                       "identifier": "service_id",
                       "position": 1,
                       "originalIdentifier": "service_id",
-                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1CopyCopy.sourceData, JSONForm1CopyCopy.formData, JSONForm1CopyCopy.fieldState)}}",
-                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1CopyCopy.sourceData, JSONForm1CopyCopy.formData, JSONForm1CopyCopy.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(addServicesProf.sourceData, addServicesProf.formData, addServicesProf.fieldState)}}",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(addServicesProf.sourceData, addServicesProf.formData, addServicesProf.fieldState)}}",
                       "boxShadow": "none",
                       "iconAlign": "left",
                       "isDisabled": false,
@@ -1922,7 +1928,7 @@
                   "label": ""
                 }
               },
-              "widgetName": "JSONForm1CopyCopy",
+              "widgetName": "addServicesProf",
               "submitButtonStyles": {
                 "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                 "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -1937,7 +1943,11 @@
               "title": "Add Services a Medical Professional Offers",
               "hideCard": false,
               "parentColumnSpace": 17.9375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onSubmit"
+                }
+              ],
               "borderWidth": "1",
               "sourceData": "{\n  \"doc_id\": 80,\n  \"service_id\": 19\n}",
               "resetButtonLabel": "Reset",
