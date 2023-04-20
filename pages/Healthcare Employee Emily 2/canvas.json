@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1090,
+          "bottomRow": 1120,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -38,7 +38,7 @@
                 "group"
               ],
               "topRow": 1,
-              "bottomRow": 62,
+              "bottomRow": 65,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -60,7 +60,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 610,
+                  "bottomRow": 640,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -75,7 +75,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 13,
+                      "topRow": 16,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -168,7 +168,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 58,
+                      "bottomRow": 61,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -468,8 +468,8 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{get_centers_availability.run()}}",
-                      "topRow": 5,
+                      "onSubmit": "",
+                      "topRow": 4,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
@@ -503,7 +503,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 12,
+                      "bottomRow": 10,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -524,7 +524,7 @@
                       "rightColumn": 51,
                       "widgetId": "f9wh4wgndz",
                       "minWidth": 450,
-                      "label": "Input Center ID Number and hit enter to return their availability in the table below",
+                      "label": "Input Center ID Number and hit submit to return their availability in the table below",
                       "parentId": "ucot23kqps",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
@@ -539,7 +539,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "borderColor": "#E0DEDE",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
-                      "onSubmit": "{{update_doctors_availability.run()}}",
+                      "onSubmit": "{{update_doctors_availability.run(() => get_centers_availability.run(), () => {})}}",
                       "topRow": 0,
                       "type": "JSON_FORM_WIDGET",
                       "animateLoading": true,
@@ -887,6 +887,59 @@
                       "originalTopRow": 0,
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{get_centers_availability.run()}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 10,
+                      "bottomRow": 14,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 17.3447265625,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 15,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Submit",
+                      "isDisabled": false,
+                      "key": "e8xxapgjxl",
+                      "isDeprecated": false,
+                      "rightColumn": 26,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "n5ukpbod8t",
+                      "minWidth": 120,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "ucot23kqps",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "hug",
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
                     }
                   ],
                   "key": "xu8kc6e00m",
@@ -922,16 +975,16 @@
               "responsiveBehavior": "fill",
               "originalTopRow": 1,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 63,
-              "originalBottomRow": 62,
-              "minDynamicHeight": 58
+              "maxDynamicHeight": 68,
+              "originalBottomRow": 65,
+              "minDynamicHeight": 64
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
               "onSubmit": "{{post_services_center.run()}}",
-              "topRow": 63,
+              "topRow": 66,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
               "leftColumn": 1,
@@ -1074,7 +1127,7 @@
               },
               "disabledWhenInvalid": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 109,
+              "originalBottomRow": 112,
               "useSourceData": false,
               "schema": {
                 "__root_schema__": {
@@ -1157,7 +1210,7 @@
               },
               "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
-              "bottomRow": 109,
+              "bottomRow": 112,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Add Services Offered at Medical Center",
@@ -1182,7 +1235,7 @@
               "scrollContents": true,
               "responsiveBehavior": "fill",
               "fixedFooter": true,
-              "originalTopRow": 63,
+              "originalTopRow": 66,
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 4
             },
@@ -1191,7 +1244,7 @@
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
               "onSubmit": "{{delete_services_center.run()}}",
-              "topRow": 63,
+              "topRow": 66,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
               "leftColumn": 11,
@@ -1334,7 +1387,7 @@
               },
               "disabledWhenInvalid": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 109,
+              "originalBottomRow": 112,
               "useSourceData": false,
               "schema": {
                 "__root_schema__": {
@@ -1417,7 +1470,7 @@
               },
               "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
-              "bottomRow": 109,
+              "bottomRow": 112,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Remove Services Offered at Medical Center",
@@ -1442,7 +1495,7 @@
               "scrollContents": true,
               "responsiveBehavior": "fill",
               "fixedFooter": true,
-              "originalTopRow": 63,
+              "originalTopRow": 66,
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 4
             },
@@ -1451,10 +1504,10 @@
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
               "onSubmit": "{{delete_services_professional.run()}}",
-              "topRow": 62,
+              "topRow": 66,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
-              "leftColumn": 36,
+              "leftColumn": 35,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1594,7 +1647,7 @@
               },
               "disabledWhenInvalid": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 108,
+              "originalBottomRow": 112,
               "useSourceData": false,
               "schema": {
                 "__root_schema__": {
@@ -1677,7 +1730,7 @@
               },
               "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
-              "bottomRow": 108,
+              "bottomRow": 112,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Remove Services a Medical Professional Offers",
@@ -1694,7 +1747,7 @@
               "key": "9tqe4dgfui",
               "backgroundColor": "#fff",
               "isDeprecated": false,
-              "rightColumn": 47,
+              "rightColumn": 46,
               "widgetId": "86bv6403pq",
               "minWidth": 450,
               "parentId": "0",
@@ -1702,7 +1755,7 @@
               "scrollContents": true,
               "responsiveBehavior": "fill",
               "fixedFooter": true,
-              "originalTopRow": 62,
+              "originalTopRow": 66,
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 4
             },
@@ -1711,7 +1764,7 @@
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
               "onSubmit": "{{post_services_professional.run()}}",
-              "topRow": 63,
+              "topRow": 66,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
               "leftColumn": 25,
@@ -1854,7 +1907,7 @@
               },
               "disabledWhenInvalid": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 109,
+              "originalBottomRow": 112,
               "useSourceData": false,
               "schema": {
                 "__root_schema__": {
@@ -1937,7 +1990,7 @@
               },
               "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
-              "bottomRow": 109,
+              "bottomRow": 112,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Add Services a Medical Professional Offers",
@@ -1962,7 +2015,7 @@
               "scrollContents": true,
               "responsiveBehavior": "fill",
               "fixedFooter": true,
-              "originalTopRow": 63,
+              "originalTopRow": 66,
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 4
             }
