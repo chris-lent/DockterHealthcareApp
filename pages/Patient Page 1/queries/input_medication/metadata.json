@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_allergies",
+    "name": "input_medication",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pt/get_patient_allergies"
+        "url": "web:4000/pt/input_patient_medication"
       },
       "invalids": [],
       "messages": [],
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"patientID\" : {{PatientID.text}}\n}",
+      "body": "{\n  \"recordID\" : {{PatientID.text}},\n  \"medication\": {{AddMed.text}}\n}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -42,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -52,6 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "AddMed.text",
       "PatientID.text"
     ],
     "userSetOnLoad": false,
@@ -59,7 +60,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Patient Page 1_get_allergies",
+  "id": "Patient Page 1_input_medication",
   "deleted": false,
-  "gitSyncId": "643ee0e2a22c9560f9d9a26c_6441d15b350569057077ae45"
+  "gitSyncId": "643ee0e2a22c9560f9d9a26c_6441d6fe350569057077ae50"
 }

@@ -1,0 +1,4 @@
+{
+  "recordID" : {{PatientID.text}},
+  "medication": {{DeleteMed.text}}
+}
