@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -39,7 +39,7 @@
                 "group"
               ],
               "topRow": 1,
-              "bottomRow": 57,
+              "bottomRow": 60,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -61,7 +61,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 560,
+                  "bottomRow": 590,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -80,8 +80,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 2,
-                      "bottomRow": 11,
+                      "topRow": 1,
+                      "bottomRow": 10,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -90,7 +90,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 4,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -107,7 +107,7 @@
                       "text": "<h1>Dockter App Welcome Page<h1>",
                       "key": "7192x8rr02",
                       "isDeprecated": false,
-                      "rightColumn": 55,
+                      "rightColumn": 52,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "28iplyc1wj",
@@ -120,10 +120,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 2,
+                      "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 11,
+                      "originalBottomRow": 10,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -150,7 +150,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 29,
+                      "leftColumn": 58,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -159,7 +159,7 @@
                       "isDisabled": false,
                       "key": "uqqfnymytp",
                       "isDeprecated": false,
-                      "rightColumn": 33,
+                      "rightColumn": 62,
                       "iconName": "play",
                       "widgetId": "mkvjc9jfbh",
                       "minWidth": 50,
@@ -182,8 +182,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 11,
-                      "bottomRow": 18,
+                      "topRow": 10,
+                      "bottomRow": 21,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -192,7 +192,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 4,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -206,10 +206,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "<p style=\"color:#15803d\";>Healthcare Employee Page 1:</p>Relates to User Stories 2 and 3 for Emily",
+                      "text": "<p style=\"color:#15803d\";>Healthcare Employee Page 1:</p>On his page a healthcare employee can check a patient's insurance plan, check insurance plans acccepted at their medical center or others in the system (with the correct center ID), add insurances accepted and delete insurances accepted.\n<i>Relates to User Stories 2 and 3 for Emily",
                       "key": "7192x8rr02",
                       "isDeprecated": false,
-                      "rightColumn": 29,
+                      "rightColumn": 55,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "2bi2fas044",
@@ -222,10 +222,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 11,
+                      "originalTopRow": 10,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 18,
+                      "originalBottomRow": 21,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -240,8 +240,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 19,
-                      "bottomRow": 23,
+                      "topRow": 24,
+                      "bottomRow": 28,
                       "parentRowSpace": 10,
                       "type": "ICON_BUTTON_WIDGET",
                       "hideCard": false,
@@ -252,7 +252,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 29,
+                      "leftColumn": 57,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -261,7 +261,7 @@
                       "isDisabled": false,
                       "key": "uqqfnymytp",
                       "isDeprecated": false,
-                      "rightColumn": 33,
+                      "rightColumn": 63,
                       "iconName": "play",
                       "widgetId": "37229un7em",
                       "minWidth": 50,
@@ -284,8 +284,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 19,
-                      "bottomRow": 26,
+                      "topRow": 21,
+                      "bottomRow": 34,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -294,7 +294,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 4,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -308,10 +308,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "<p style=\"color:#1d4ed8\";>Healthcare Employee Page 2:</p>Relates to User Stories 1, 2, and 4 for Emily.\n",
+                      "text": "<p style=\"color:#1d4ed8\";>Healthcare Employee Page 2:</p>On this page a healthcare employee can check and update doctor's general availability/working hours, view, add and delete services offered at a medical center and services offered by specific doctor's at a center. Also, they can view which services correspond with which service IDs. \n<i>Relates to User Stories 1, 2, and 4 for Emily.\n",
                       "key": "ukyld1qmxl",
                       "isDeprecated": false,
-                      "rightColumn": 29,
+                      "rightColumn": 56,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "y6gh46togq",
@@ -324,10 +324,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 19,
+                      "originalTopRow": 21,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 26,
+                      "originalBottomRow": 34,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -340,8 +340,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 28,
-                      "bottomRow": 33,
+                      "topRow": 35,
+                      "bottomRow": 44,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -350,7 +350,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 4,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -364,10 +364,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "<p style=\"color:#6b21a8\";>Patient Page 1:</p>Relates to\n",
+                      "text": "<p style=\"color:#6b21a8\";>Patient Page 1:</p>Here a patient can sign in with their unique ID and access parts of their medical record to add or delete. They can also update their contact information (phone number).\n<i>Relates to User Story 6 for Jane.\n",
                       "key": "ukyld1qmxl",
                       "isDeprecated": false,
-                      "rightColumn": 28,
+                      "rightColumn": 56,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "kxii7412qv",
@@ -380,10 +380,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 28,
+                      "originalTopRow": 35,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 33,
+                      "originalBottomRow": 44,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -396,8 +396,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 36,
-                      "bottomRow": 41,
+                      "topRow": 45,
+                      "bottomRow": 50,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -406,7 +406,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 4,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -423,7 +423,7 @@
                       "text": "<p style=\"color:#9d174d\";>Patient Page 2:</p>Relates to",
                       "key": "ukyld1qmxl",
                       "isDeprecated": false,
-                      "rightColumn": 29,
+                      "rightColumn": 56,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "5rrzapfu5a",
@@ -436,10 +436,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 36,
+                      "originalTopRow": 45,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 41,
+                      "originalBottomRow": 50,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -454,8 +454,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 28,
-                      "bottomRow": 32,
+                      "topRow": 37,
+                      "bottomRow": 41,
                       "parentRowSpace": 10,
                       "type": "ICON_BUTTON_WIDGET",
                       "hideCard": false,
@@ -466,7 +466,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 29,
+                      "leftColumn": 58,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -475,7 +475,7 @@
                       "isDisabled": false,
                       "key": "uqqfnymytp",
                       "isDeprecated": false,
-                      "rightColumn": 33,
+                      "rightColumn": 62,
                       "iconName": "play",
                       "widgetId": "u3yrkezgr8",
                       "minWidth": 50,
@@ -484,9 +484,9 @@
                       "parentId": "isrmgul5o7",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 28,
+                      "originalTopRow": 36,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 32,
+                      "originalBottomRow": 40,
                       "buttonVariant": "PRIMARY"
                     },
                     {
@@ -500,8 +500,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 36,
-                      "bottomRow": 41,
+                      "topRow": 45,
+                      "bottomRow": 50,
                       "parentRowSpace": 10,
                       "type": "ICON_BUTTON_WIDGET",
                       "hideCard": false,
@@ -512,7 +512,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 29,
+                      "leftColumn": 58,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -521,7 +521,7 @@
                       "isDisabled": false,
                       "key": "uqqfnymytp",
                       "isDeprecated": false,
-                      "rightColumn": 33,
+                      "rightColumn": 62,
                       "iconName": "play",
                       "widgetId": "g6ablk3ahx",
                       "minWidth": 50,
@@ -530,9 +530,9 @@
                       "parentId": "isrmgul5o7",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 36,
+                      "originalTopRow": 45,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 41,
+                      "originalBottomRow": 50,
                       "buttonVariant": "PRIMARY"
                     }
                   ],
@@ -569,9 +569,9 @@
               "responsiveBehavior": "fill",
               "originalTopRow": 1,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 57,
+              "maxDynamicHeight": 60,
               "originalBottomRow": 57,
-              "minDynamicHeight": 56
+              "minDynamicHeight": 59
             }
           ]
         },

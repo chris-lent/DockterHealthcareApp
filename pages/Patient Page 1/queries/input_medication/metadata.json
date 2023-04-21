@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"recordID\" : {{PatientID.text}},\n  \"medication\": {{AddMed.text}}\n}",
+      "body": "{\n  \"patientID\" : {{PatientID.text}},\n  \"medication\": {{AddMed.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],

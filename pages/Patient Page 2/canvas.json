@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1160,
+          "bottomRow": 1190,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -34,8 +34,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 8,
-              "bottomRow": 12,
+              "topRow": 9,
+              "bottomRow": 13,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -68,7 +68,7 @@
               "minWidth": 450,
               "isVisible": true,
               "fontStyle": "BOLD",
-              "textColor": "#231F20",
+              "textColor": "#831843",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
@@ -103,9 +103,6 @@
               ],
               "leftColumn": 1,
               "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
                 {
                   "key": "borderRadius"
                 },
@@ -456,6 +453,18 @@
                         },
                         {
                           "key": "primaryColumns.center_name.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.city.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.state.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.street_address.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.zipcode.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -493,14 +502,18 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1682022661270,
+                      "columnUpdatedAt": 1682038313762,
                       "defaultSelectedRowIndices": [
                         0
                       ],
                       "widgetName": "Table2",
                       "defaultPageSize": 0,
                       "columnOrder": [
-                        "center_name"
+                        "center_name",
+                        "street_address",
+                        "city",
+                        "state",
+                        "zipcode"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
@@ -508,7 +521,8 @@
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
-                        "status": 85
+                        "status": 85,
+                        "center_name": 199
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -541,6 +555,122 @@
                           "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"center_name\"]))}}",
                           "sticky": "",
                           "validation": {}
+                        },
+                        "city": {
+                          "allowCellWrapping": false,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "city",
+                          "id": "city",
+                          "alias": "city",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "City",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "state": {
+                          "allowCellWrapping": false,
+                          "index": 2,
+                          "width": 150,
+                          "originalId": "state",
+                          "id": "state",
+                          "alias": "state",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "State",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "street_address": {
+                          "allowCellWrapping": false,
+                          "index": 3,
+                          "width": 150,
+                          "originalId": "street_address",
+                          "id": "street_address",
+                          "alias": "street_address",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Address",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"street_address\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "zipcode": {
+                          "allowCellWrapping": false,
+                          "index": 4,
+                          "width": 150,
+                          "originalId": "zipcode",
+                          "id": "zipcode",
+                          "alias": "zipcode",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Zipcode",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zipcode\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
                         }
                       },
                       "key": "kc4vnlngir",
@@ -639,7 +769,7 @@
                       "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
                       "autoGenerateForm": true,
                       "resetButtonStyles": {
-                        "buttonColor": "#166534",
+                        "buttonColor": "#831843",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
                         "buttonVariant": "TERTIARY"
@@ -781,7 +911,7 @@
                       },
                       "widgetName": "FindService",
                       "submitButtonStyles": {
-                        "buttonColor": "#15803d",
+                        "buttonColor": "#be185d",
                         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                         "boxShadow": "none",
                         "buttonVariant": "PRIMARY"
@@ -804,7 +934,7 @@
                       "sourceData": "{\n  \"serviceName\": \"Corneal incision\"\n}",
                       "resetButtonLabel": "Reset",
                       "key": "ef3z88va3o",
-                      "backgroundColor": "#d8b4fe",
+                      "backgroundColor": "#f472b6",
                       "isDeprecated": false,
                       "rightColumn": 64,
                       "widgetId": "bjr0c13abt",
@@ -843,6 +973,18 @@
                         },
                         {
                           "key": "primaryColumns.center_name.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.city.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.state.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.street_address.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.zipcode.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -880,7 +1022,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1682023115872,
+                      "columnUpdatedAt": 1682038334218,
                       "originalBottomRow": 54,
                       "defaultSelectedRowIndices": [
                         0
@@ -888,7 +1030,11 @@
                       "widgetName": "Table3",
                       "defaultPageSize": 0,
                       "columnOrder": [
-                        "center_name"
+                        "center_name",
+                        "street_address",
+                        "city",
+                        "state",
+                        "zipcode"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
@@ -896,7 +1042,8 @@
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
-                        "status": 85
+                        "status": 85,
+                        "center_name": 208
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -929,6 +1076,122 @@
                           "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"center_name\"]))}}",
                           "sticky": "",
                           "validation": {}
+                        },
+                        "city": {
+                          "allowCellWrapping": false,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "city",
+                          "id": "city",
+                          "alias": "city",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "City",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "state": {
+                          "allowCellWrapping": false,
+                          "index": 2,
+                          "width": 150,
+                          "originalId": "state",
+                          "id": "state",
+                          "alias": "state",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "State",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "street_address": {
+                          "allowCellWrapping": false,
+                          "index": 3,
+                          "width": 150,
+                          "originalId": "street_address",
+                          "id": "street_address",
+                          "alias": "street_address",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Address",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"street_address\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "zipcode": {
+                          "allowCellWrapping": false,
+                          "index": 4,
+                          "width": 150,
+                          "originalId": "zipcode",
+                          "id": "zipcode",
+                          "alias": "zipcode",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Zipcode",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zipcode\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
                         }
                       },
                       "key": "kc4vnlngir",
@@ -970,12 +1233,12 @@
               ],
               "borderWidth": 1,
               "key": "pi0h2wum2d",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#fbcfe8",
               "isDeprecated": false,
               "rightColumn": 51,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "fqvaznbu5s",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "accentColor": "#831843",
               "defaultTab": "Filter by Insurance",
               "onTabSelected": "{{med_center_by_service.run()}}",
               "shouldShowTabs": true,
@@ -1011,10 +1274,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 14,
+              "originalTopRow": 13,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 54,
+              "originalBottomRow": 53,
               "minDynamicHeight": 15
             },
             {
@@ -1087,8 +1350,8 @@
                 "number",
                 "textarea"
               ],
-              "topRow": 79,
-              "bottomRow": 86,
+              "topRow": 83,
+              "bottomRow": 90,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "autoFocus": false,
@@ -1129,10 +1392,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 60,
+              "originalTopRow": 63,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 67,
+              "originalBottomRow": 70,
               "iconAlign": "left",
               "defaultText": "Corneal incision",
               "minDynamicHeight": 4
@@ -1142,7 +1405,7 @@
               "boxShadow": "none",
               "widgetName": "Button1",
               "onClick": "{{centers_accept_insurance.run(() => med_center_by_location.run(), () => {})}}",
-              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "buttonColor": "#be185d",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -1163,9 +1426,6 @@
               ],
               "leftColumn": 14,
               "dynamicBindingPathList": [
-                {
-                  "key": "buttonColor"
-                },
                 {
                   "key": "borderRadius"
                 }
@@ -1195,15 +1455,15 @@
               "boxShadow": "none",
               "widgetName": "docAvailButton",
               "onClick": "{{doctor_availability_by_service.run()}}",
-              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "buttonColor": "#be185d",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
                 "click",
                 "submit"
               ],
-              "topRow": 81,
-              "bottomRow": 86,
+              "topRow": 85,
+              "bottomRow": 90,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -1216,9 +1476,6 @@
               ],
               "leftColumn": 23,
               "dynamicBindingPathList": [
-                {
-                  "key": "buttonColor"
-                },
                 {
                   "key": "borderRadius"
                 }
@@ -1238,10 +1495,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 62,
+              "originalTopRow": 65,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 67,
+              "originalBottomRow": 70,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -1254,8 +1511,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 75,
-              "bottomRow": 79,
+              "topRow": 79,
+              "bottomRow": 83,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1288,16 +1545,16 @@
               "minWidth": 450,
               "isVisible": true,
               "fontStyle": "BOLD",
-              "textColor": "#231F20",
+              "textColor": "#831843",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 56,
+              "originalTopRow": 59,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 60,
+              "originalBottomRow": 63,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -1306,7 +1563,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 87,
+              "topRow": 90,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -1325,9 +1582,6 @@
                   "key": "primaryColumns.day_of_week.computedValue"
                 },
                 {
-                  "key": "primaryColumns.doc_id.computedValue"
-                },
-                {
                   "key": "primaryColumns.end_time.computedValue"
                 },
                 {
@@ -1341,6 +1595,21 @@
                 },
                 {
                   "key": "primaryColumns.last_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.center_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.city.computedValue"
+                },
+                {
+                  "key": "primaryColumns.state.computedValue"
+                },
+                {
+                  "key": "primaryColumns.street_address.computedValue"
+                },
+                {
+                  "key": "primaryColumns.zipcode.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -1352,6 +1621,7 @@
               "isVisible": true,
               "enableClientSideSearch": true,
               "version": 1,
+              "textColor": "#831843",
               "totalRecordsCount": 0,
               "isLoading": false,
               "childStylesheet": {
@@ -1378,8 +1648,8 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1682034567449,
-              "originalBottomRow": 97,
+              "columnUpdatedAt": 1682038218162,
+              "originalBottomRow": 99,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -1391,15 +1661,24 @@
                 "day_of_week",
                 "start_time",
                 "end_time",
-                "doc_id"
+                "center_name",
+                "street_address",
+                "city",
+                "state",
+                "zipcode"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 116,
+              "bottomRow": 119,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
-                "status": 85
+                "status": 85,
+                "day_of_week": 156,
+                "start_time": 81,
+                "end_time": 79,
+                "city": 128,
+                "state": 96
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -1417,7 +1696,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "",
+                  "textColor": "#831843",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1434,36 +1713,7 @@
                   "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"day_of_week\"]))}}",
                   "sticky": "",
                   "validation": {},
-                  "cellBackground": ""
-                },
-                "doc_id": {
-                  "allowCellWrapping": false,
-                  "index": 1,
-                  "width": 150,
-                  "originalId": "doc_id",
-                  "id": "doc_id",
-                  "alias": "doc_id",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "Doctor ID",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"doc_id\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "#fdf2f8"
                 },
                 "end_time": {
                   "allowCellWrapping": false,
@@ -1475,7 +1725,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "",
+                  "textColor": "#831843",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1492,7 +1742,7 @@
                   "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"end_time\"]))}}",
                   "sticky": "",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "#fdf2f8"
                 },
                 "start_time": {
                   "allowCellWrapping": false,
@@ -1504,7 +1754,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "",
+                  "textColor": "#831843",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1521,7 +1771,7 @@
                   "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"start_time\"]))}}",
                   "sticky": "",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "#fdf2f8"
                 },
                 "first_name": {
                   "allowCellWrapping": false,
@@ -1533,7 +1783,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "",
+                  "textColor": "#831843",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1550,7 +1800,7 @@
                   "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
                   "sticky": "",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "#fdf2f8"
                 },
                 "last_name": {
                   "allowCellWrapping": false,
@@ -1562,7 +1812,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "",
+                  "textColor": "#831843",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1579,13 +1829,158 @@
                   "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
                   "sticky": "",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "#fdf2f8"
+                },
+                "center_name": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "center_name",
+                  "id": "center_name",
+                  "alias": "center_name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "#831843",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Medical Center",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"center_name\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fdf2f8"
+                },
+                "city": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "city",
+                  "id": "city",
+                  "alias": "city",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "#831843",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "City",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fdf2f8"
+                },
+                "state": {
+                  "allowCellWrapping": false,
+                  "index": 7,
+                  "width": 150,
+                  "originalId": "state",
+                  "id": "state",
+                  "alias": "state",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "#831843",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "State",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fdf2f8"
+                },
+                "street_address": {
+                  "allowCellWrapping": false,
+                  "index": 8,
+                  "width": 150,
+                  "originalId": "street_address",
+                  "id": "street_address",
+                  "alias": "street_address",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "#831843",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Address",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"street_address\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fdf2f8"
+                },
+                "zipcode": {
+                  "allowCellWrapping": false,
+                  "index": 9,
+                  "width": 150,
+                  "originalId": "zipcode",
+                  "id": "zipcode",
+                  "alias": "zipcode",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "#831843",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Zipcode",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zipcode\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": "#fdf2f8"
                 }
               },
               "key": "0vlln3jkvf",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 55,
+              "rightColumn": 64,
               "textSize": "0.875rem",
               "widgetId": "mwxe3xoccm",
               "minWidth": 450,
@@ -1597,8 +1992,9 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 68,
+              "originalTopRow": 70,
               "isVisiblePagination": true,
+              "cellBackground": "#fdf2f8",
               "verticalAlignment": "CENTER"
             }
           ]
