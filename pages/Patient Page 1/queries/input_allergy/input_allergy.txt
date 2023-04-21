@@ -1,4 +1,4 @@
 {
-  "recordID" : {{PatientID.inputText}},
+  "patientID" : {{PatientID.inputText}},
 	"allergy": {{AddAllergy.text}}
 }

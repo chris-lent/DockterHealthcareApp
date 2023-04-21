@@ -397,7 +397,7 @@
                         "label"
                       ],
                       "topRow": 45,
-                      "bottomRow": 50,
+                      "bottomRow": 56,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -420,7 +420,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "<p style=\"color:#9d174d\";>Patient Page 2:</p>Relates to",
+                      "text": "<p style=\"color:#9d174d\";>Patient Page 2:</p>Here a patient can sign in with Patient ID and view medical centers filtered by your insurance type, location and necessary service. Also search for medical providers working hours by the service they provide.\n<i>Relates to User Stories 1, 2, 3 and 4 for Jane.",
                       "key": "ukyld1qmxl",
                       "isDeprecated": false,
                       "rightColumn": 56,
@@ -570,7 +570,7 @@
               "originalTopRow": 1,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 60,
-              "originalBottomRow": 57,
+              "originalBottomRow": 60,
               "minDynamicHeight": 59
             }
           ]
